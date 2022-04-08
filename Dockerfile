@@ -1,5 +1,5 @@
 FROM amazonlinux
-MAINTAINER sanjay.dahiya332@gmail.com
+MAINTAINER padharthiswetha@gmail.com
 RUN yum install httpd zip unzip -y
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
 WORKDIR /var/www/html
